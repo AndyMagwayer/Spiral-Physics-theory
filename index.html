@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spiral-Physics-theory</title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <title>Spiral-Physics-Theory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="main.css">
+
 </head>
 <body>
-    <div id="control-bar-wrapper">
-        <div id="control-bar">
-          <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()" title="Toggle Pulse">
-            <i class="fa-solid fa-music-slash off"></i>
-            <i class="fa-solid fa-music on"></i>
-          </button>
-        </div>
-      </div>
+<!-- partial:index.partial.html -->
+<div id="control-bar-wrapper">
+  <div id="control-bar">
+    <button id="sound-toggle" class="toggle" type="button" data-toggled="false" onClick="handleSoundToggle()" title="Toggle Pulse">
+      <i class="fa-solid fa-music-slash off"></i>
+      <i class="fa-solid fa-music on"></i>
+    </button>
+  </div>
+</div>
 
-      <div id="background-image"></div>
+<div id="background-image"></div>
 
 <div id="background-filter"></div>
 
@@ -29,7 +30,12 @@
 </div>
 
 <canvas id="paper"></canvas>
+<!-- partial -->
+<script src="script.js">const script = document.createElement("script");
 
-<script src="index.js"></script>
+    script.src = "https://kit.fontawesome.com/1ee8f271b9.js";
+    
+    document.body.appendChild(script);</script>
+
 </body>
 </html>
