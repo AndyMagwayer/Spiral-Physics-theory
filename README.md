@@ -1,5 +1,5 @@
 # Spiral-Physics-theory
-![Brain]([https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png](https://github.com/AndyMagwayer/Spiral-Physics-theory/blob/main/gfg2.jpg))
+![Brain](https://github.com/AndyMagwayer/Spiral-Physics-theory/blob/main/Periodic%20Spiral%2011.jpg)
 
 
 ## deploy: https://spiral-physics-theory-magamed.netlify.app/
